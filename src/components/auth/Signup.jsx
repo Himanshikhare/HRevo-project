@@ -104,7 +104,7 @@ const Signup = () => {
                 <div className='mt-15 flex justify-center items-center h-screen bg-gray-100'>
                     <form onSubmit={submitHandler} className=' mt-20 w-full max-w-xl bg-white p-8 rounded-lg shadow-lg'>
                         <div className="flex justify-center mb-4">
-                            <img src="public\Hrevo_Logo-Without_background.png" alt="logo" className="h-12 md:h-16"></img>
+                            <img src="\Hrevo_Logo-Without_background.png" alt="logo" className="h-12 md:h-16"></img>
                         </div>
 
                         {/* Signup heading */}

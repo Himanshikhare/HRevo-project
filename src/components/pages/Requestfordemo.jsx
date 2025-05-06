@@ -108,7 +108,7 @@ const Requestfordemo = () => {
                     <form onSubmit={submitHandler} className=' w-full max-w-xl bg-white p-6 sm:p-8 rounded-lg shadow-lg'>
 
                         {/* Company Logo */}
-                        <div><img src="public\Hrevo_Logo-Without_background.png" alt="logo"></img></div>
+                        <div><img src="\Hrevo_Logo-Without_background.png" alt="logo"></img></div>
                         <h1 className='text-2xl sm:text-3xl font-bold text-center mb-6'>Request For Demo</h1>
 
                         {/* Full Name Field */}

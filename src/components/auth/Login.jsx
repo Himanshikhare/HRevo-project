@@ -88,7 +88,7 @@ const Login = () => {
                     className='w-full max-w-xl bg-white p-6 md:p-8 rounded-lg shadow-lg '>
                     <div className="flex justify-center mb-6">
                         <img 
-                            src="public\Hrevo_Logo-Without_background.png" 
+                            src="\Hrevo_Logo-Without_background.png" 
                             alt="logo"
                             className="h-12 md:h-16"
                             >

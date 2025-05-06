@@ -88,20 +88,17 @@ const Dropdown = ({ label, options }) => {
 
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const toggleMenu = () => {
-        setIsMenuOpen(!isMenuOpen);
-      };
+    
 
-    const user = false;
     return (
         <nav className=' fixed top-0 left-0 w-full bg-green-700  shadow-lg z-50 text-white '>
-            <div className='flex items-center justify-between ml-3 mr-1' >
-                <div className="flex items-center ">
-                    <img src="\Hrevo_Logo-Without_background.png" alt="HRevo Logo" className="w-40 h-auto sm:w-48 md:w-60 "></img>
+            <div className='flex items-center justify-between px-4 py-2' >
+                <div className="flex-shrink-0 ">
+                    <img src="\Hrevo_Logo-Without_background.png" alt="HRevo Logo" className="w-40 h-auto sm:w-48 md:w-30 "></img>
                 </div>
                 {/* Navbar Links */}
-                <div className=" hidden md:flex items-center gap-6">
-                    <Link to="/"><button className=' font-bold  hover:cursor-pointer hover:shadow-md hover:shadow-[black] transition-shadow duration-400 text-white'>Home</button></Link>
+                <div className=" hidden md:flex items-center gap-6  flex-grow justify-end.">
+                    <Link to="/"><button className=' ml-5 font-bold  hover:cursor-pointer hover:shadow-md hover:shadow-[black] transition-shadow duration-400 text-white hover:bg-[blue]'>Home</button></Link>
                     {/* Reusable Dropdowns */}
                     <Dropdown
                         label="HR Management"
@@ -145,7 +142,7 @@ const Navbar = () => {
 
                 {/* Hamburger Menu */}
                 <button
-                    className="block md:hidden p-2 rounded-md bg-green-800 hover:bg-green-900"
+                    className="block  lg:hidden p-2 rounded-md bg-green-800 hover:bg-green-900"
                     onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
                     <svg
@@ -184,6 +181,7 @@ const Navbar = () => {
                                 { label: "Core HR", link: "/Corehr" },
                                 { label: "Payroll Management", link: "/Payroll" },
                             ]}
+                            closeMenu={() => setMobileMenuOpen(false)}
                         />
                         <Dropdown
                             label="Recruitment & Onboarding"
@@ -191,6 +189,7 @@ const Navbar = () => {
                                 { label: "Career Page", link: "/Careerpage" },
                                 { label: "AI Recommendations", link: "/AIpage" },
                             ]}
+                            closeMenu={() => setMobileMenuOpen(false)}
                         />
                         <Dropdown
                             label="Prices"
@@ -198,6 +197,7 @@ const Navbar = () => {
                                 { label: "HRMS", link: "/HRMSprice" },
                                 { label: "Recruiting", link: "/Recruitingprice" },
                             ]}
+                            closeMenu={() => setMobileMenuOpen(false)}
                         />
                         <Link to="/Contactus" onClick={() => setMobileMenuOpen(false)}>
                             Contact Us

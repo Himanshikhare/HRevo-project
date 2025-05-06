@@ -44,49 +44,47 @@ const Herosection = () => {
 
   return (
     <div className=' relative text-left' >
-      <div className='flex flex-col gap-1 my-10 bg-white min-h-full mt-20' >
+      <div className='flex flex-col gap-1 my-10 bg-white min-h-full mt-15' >
 
-        <Marquee speed={150} className="bg-blue-600 text-white py-3 font-medium" style={{ fontFamily: 'Poppins, sans-serif' }}>
-          Efficient Payroll and Strategic Recruitment for a Thriving Workforce.
+        <Marquee speed={100} className="bg-blue-600 text-white py-6 md:mt-8 lg:mt-0 sm:mt-0 font-medium whitespace-nowrap" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <span className="inline-block">
+            Efficient Payroll and Strategic Recruitment for a Thriving Workforce. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Efficient Payroll and Strategic Recruitment for a Thriving Workforce. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
         </Marquee>
 
-        <div className=" h-full flex items-center justify-center px-4 py-10 bg-white text-black" style={{ fontFamily: 'Poppins, sans-serif' }}>
-          <div className="container mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
+        <div className=" h-full flex flex-col-reverse items-center justify-center px-4 py-6 bg-white text-black md:flex-row md:gap-10 md:py-10" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <div className="container mx-auto flex flex-col-reverse md:flex-row items-center gap-6 md:gap-10">
             {/* Text Content */}
-            <div className="flex-1 text-center ">
-              <h1 className="text-5xl font-bold leading-tight "><span className="text-[blue]">All-in-one</span>
+            <div className="flex-1 text-center md:text-left">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight  "><span className="text-[blue]">All-in-one</span>
                 <span > HR, Payroll &</span><br />
                 <span > Recruitment Solution.</span>
               </h1>
-              <p className="mt-4 text-lg text-gray-700">
+              <p className="mt-4 text-sm sm:text-base md:text-lg text-gray-700">
                 Core HR management, performance management, workflows, attendance management, payroll, leave management, task management, onboarding, and recruitment made simple.
               </p>
 
               {/* buttons*/}
-              <div className="w-150 h-30 ml-30 flex  gap-x-20">
-                <Link to="/Signup"><Button className="bg-green-700 text-white w-50 h-12 mt-10 hover:bg-black hover:cursor-pointer">Start 7-Day Free Trial</Button></Link>
+              <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 mt-6">
+                <Link to="/Signup"><Button className="bg-blue-700 text-white px-6 py-3 text-sm sm:text-base hover:bg-black hover:cursor-pointer">Start 7-Day Free Trial</Button></Link>
 
-                <Link to="/Requestfordemo"><Button className="bg-[blue] text-white w-50 h-12 mt-10 hover:bg-black hover:cursor-pointer">Schedule a Demo</Button></Link>
+                <Link to="/Requestfordemo"><Button className="bg-green-700 text-white px-6 py-3 text-sm sm:text-base hover:bg-black hover:cursor-pointer">Schedule a Demo</Button></Link>
               </div>
-              <div className="flex items-center ml-30 flex  gap-3">
-                <FontAwesomeIcon
-                  icon={faCheckCircle}
-                  className="text-green-700 text-2xl gap-1"
-                />
-                <span>No Credit Card Required</span>
-
-                <FontAwesomeIcon
-                  icon={faCheckCircle}
-                  className="text-green-700 text-2xl ml-20"
-                />
-                <span>No Commitment</span>
+              <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 mt-4">
+                <div className="flex items-center gap-2">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-green-700 text-lg" />
+                  <span className="text-sm sm:text-base">No Credit Card Required</span>
+                </div>
+                <div className="flex items-center gap-2 sm:ml-6">
+                  <FontAwesomeIcon icon={faCheckCircle} className="text-green-700 text-lg" />
+                  <span className="text-sm sm:text-base">No Commitment</span>
+                </div>
               </div>
-
-
 
             </div>
             {/* Image */}
-            <div className="flex-1 max-w-lg">
+            <div className="flex-1 max-w-xs sm:max-w-md md:max-w-lg">
               <img
                 src="\person-centred-3337893_1280.png"
                 alt="HR Illustration"
@@ -98,33 +96,35 @@ const Herosection = () => {
 
 
 
-        <div className="flex gap-10 items-center justify-center p-10 bg-gray-100" style={{ fontFamily: 'Poppins, sans-serif' }}>
-          <h3>Trusted  By</h3>
+        <div className="flex flex-col md:flex-row gap-10 items-center justify-center p-10 bg-gray-100" style={{ fontFamily: 'Poppins, sans-serif' }}>
+          <h3 className="text-center md:text-left mb-5 md:mb-0">Trusted By</h3>
+
           {/* Companies */}
-          <div className="flex flex-col items-center w-60 border-r-3 border-dashed">
-            <h2 className="text-7xl font-bold text-blue-600">{formatNumber(stats.companies)}</h2>
+          <div className="flex flex-col items-center w-full md:w-1/5 border-b-3 md:border-b-0 md:border-r-3 border-dashed mb-5 md:mb-0">
+            <h2 className="text-4xl sm:text-6xl md:text-5xl font-bold text-blue-600">{formatNumber(stats.companies)}</h2>
             <p className="text-gray-600">Companies</p>
           </div>
-          <vr />
 
-          {/* employees */}
-          <div className="flex flex-col items-center w-60 border-r-3 border-dashed">
-            <h2 className="text-7xl font-bold text-green-600">{formatNumber(stats.employees)}</h2>
+          {/* Employees */}
+          <div className="flex flex-col items-center w-full md:w-1/5 border-b-3 md:border-b-0 md:border-r-3 border-dashed mb-5 md:mb-0">
+            <h2 className="text-4xl sm:text-6xl md:text-5xl font-bold text-green-600">{formatNumber(stats.employees)}</h2>
             <p className="text-gray-600">Employees</p>
           </div>
 
-          {/* features */}
-          <div className="flex flex-col items-center w-60 border-r-3 border-dashed">
-            <h2 className="text-7xl font-bold text-green-600">{formatNumber(stats.features)}</h2>
+          {/* Features */}
+          <div className="flex flex-col items-center w-full md:w-1/5 border-b-3 md:border-b-0 md:border-r-3 border-dashed mb-5 md:mb-0">
+            <h2 className="text-4xl sm:text-6xl md:text-5xl font-bold text-green-600">{formatNumber(stats.features)}</h2>
             <p className="text-gray-600">Features</p>
           </div>
 
-          {/* cities */}
-          <div className="flex flex-col items-center w-60">
-            <h2 className="text-7xl font-bold text-green-600">{formatNumber(stats.cities)}</h2>
+          {/* Cities */}
+          <div className="flex flex-col items-center w-full md:w-1/5 mb-5 md:mb-0">
+            <h2 className="text-4xl sm:text-6xl md:text-5xl font-bold text-green-600">{formatNumber(stats.cities)}</h2>
             <p className="text-gray-600">Cities</p>
           </div>
         </div>
+
+
 
         <h1 className="text-center text-3xl font-bold mt-10">PLATFORM FEATURES</h1>
         <p className="text-center  mt-10" style={{ fontFamily: 'Poppins, sans-serif' }}>Innovative HR Features Designed for Modern Businesses</p>
@@ -451,7 +451,7 @@ const Herosection = () => {
             <div className="flex-1  ml-15">
               <h2 className="text-3xl font-bold leading-tight">RECRUITMENT MANAGEMENT</h2>
               <p className="mt-4 text-lg text-gray-700">
-              Accomplish the high-volume process of sourcing, tracking and recruiting the best talent that is aligned with your business – on a single, comprehensive, centralized platform.
+                Accomplish the high-volume process of sourcing, tracking and recruiting the best talent that is aligned with your business – on a single, comprehensive, centralized platform.
               </p>
 
               <div className="flex flex-col items-left mt-10">
