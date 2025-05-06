@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import HeroSection from '../Herosection'
+import HeroSection from '../HeroSection'
 import Navbar from '../shared/Navbar'
 import Footer from '../shared/Footer'
 import { motion } from 'framer-motion';
