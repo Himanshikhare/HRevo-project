@@ -88,7 +88,7 @@ const Herosection = () => {
             {/* Image */}
             <div className="flex-1 max-w-lg">
               <img
-                src="src/assets/person-centred-3337893_1280.png"
+                src="\person-centred-3337893_1280.png"
                 alt="HR Illustration"
                 className="w-full object-contain"
               />
@@ -222,7 +222,7 @@ const Herosection = () => {
             {/* Image */}
             <div className="flex-1 max-w-lg">
               <img
-                src="src\assets\1746366551116.jpg"
+                src="\1746366551116.jpg"
                 alt="HR Illustration"
                 className="w-full object-contain"
               />
@@ -298,7 +298,7 @@ const Herosection = () => {
             {/* Image */}
             <div className="flex-1 max-w-lg">
               <img
-                src="src\assets\attendance.jpeg"
+                src="\attendance.jpeg"
                 alt="HR Illustration"
                 className="w-full object-contain"
               />
@@ -313,7 +313,7 @@ const Herosection = () => {
             {/* Image */}
             <div className="flex-1 max-w-lg">
               <img
-                src="src\assets\payroll.jpeg"
+                src="\payroll.jpeg"
                 alt="HR Illustration"
                 className="w-full object-contain"
               />
@@ -389,7 +389,7 @@ const Herosection = () => {
             {/* Image */}
             <div className="flex-1 max-w-lg">
               <img
-                src="src\assets\Designer (5).jpeg"
+                src="\Designer (5).jpeg"
                 alt="HR Illustration"
                 className="w-full object-contain"
               />
@@ -404,7 +404,7 @@ const Herosection = () => {
             {/* Image */}
             <div className="flex-1 max-w-lg">
               <img
-                src="src\assets\performance.jpeg"
+                src="\performance.jpeg"
                 alt="HR Illustration"
                 className="w-full object-contain"
               />
@@ -480,7 +480,7 @@ const Herosection = () => {
             {/* Image */}
             <div className="flex-1 max-w-lg">
               <img
-                src="src\assets\Recruitment.jpeg"
+                src="\Recruitment.jpeg"
                 alt="HR Illustration"
                 className="w-full object-contain"
               />

@@ -44,7 +44,7 @@ const Careerpage = () => {
                                 {/* Image */}
                                 <div className="flex-1 max-w-lg">
                                     <img
-                                        src="src\assets\career.png"
+                                        src="\career.png"
                                         alt="HR Illustration"
                                         className="w-full object-contain"
                                     />
@@ -61,7 +61,7 @@ const Careerpage = () => {
                                 {/* Image */}
                                 <div className="flex-1 max-w-lg">
                                     <img
-                                        src="src\assets\laptop.jpg"
+                                        src="\laptop.jpg"
                                         alt="HR Illustration"
                                         className="w-full object-contain"
                                     />
@@ -91,7 +91,7 @@ const Careerpage = () => {
                                 {/* Image */}
                                 <div className="flex-1 max-w-lg">
                                     <img
-                                        src="src\assets\administrator.png"
+                                        src="\administrator.png"
                                         alt="HR Illustration"
                                         className="w-full object-contain"
                                     />
@@ -106,7 +106,7 @@ const Careerpage = () => {
                                 {/* Image */}
                                 <div className="flex-1 max-w-lg">
                                     <img
-                                        src="src\assets\video-conference.png"
+                                        src="\video-conference.png"
                                         alt="HR Illustration"
                                         className="w-full object-contain"
                                     />

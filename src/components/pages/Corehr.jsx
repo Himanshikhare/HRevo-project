@@ -44,7 +44,7 @@ const Corehr = () => {
                     {/* Image */}
                     <div className="flex-1 max-w-lg">
                         <img
-                            src="src\assets\hrmanagement.jpeg"
+                            src="\hrmanagement.jpeg"
                             alt="HR Illustration"
                             className="w-full object-contain"
                         />
@@ -61,7 +61,7 @@ const Corehr = () => {
                     {/* Image */}
                     <div className="flex-1 max-w-lg">
                         <img
-                            src="src\assets\hr software.jpeg"
+                            src="\hr software.jpeg"
                             alt="HR Illustration"
                             className="w-full object-contain"
                         />
@@ -91,7 +91,7 @@ const Corehr = () => {
                     {/* Image */}
                     <div className="flex-1 max-w-lg">
                         <img
-                            src="src\assets\Designer (5).jpeg"
+                            src="\Designer (5).jpeg"
                             alt="HR Illustration"
                             className="w-full object-contain"
                         />
@@ -105,7 +105,7 @@ const Corehr = () => {
                     {/* Image */}
                     <div className="flex-1 max-w-lg">
                         <img
-                            src="src\assets\HR.jpeg"
+                            src="\HR.jpeg"
                             alt="HR Illustration"
                             className="w-full object-contain"
                         />

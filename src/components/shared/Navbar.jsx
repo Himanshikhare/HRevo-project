@@ -97,7 +97,7 @@ const Navbar = () => {
         <nav className=' fixed top-0 left-0 w-full bg-green-700  shadow-lg z-50 text-white '>
             <div className='flex items-center justify-between ml-3 mr-1' >
                 <div className="flex items-center ">
-                    <img src="/Hrevo_Logo-Without_background.png" alt="HRevo Logo" className="w-40 h-auto sm:w-48 md:w-60 "></img>
+                    <img src="\Hrevo_Logo-Without_background.png" alt="HRevo Logo" className="w-40 h-auto sm:w-48 md:w-60 "></img>
                 </div>
                 {/* Navbar Links */}
                 <div className=" hidden md:flex items-center gap-6">

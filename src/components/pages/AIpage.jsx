@@ -42,7 +42,7 @@ const AIpage = () => {
                                 {/* Image */}
                                 <div className="flex-1 max-w-lg">
                                     <img
-                                        src="src\assets\AI Recommendations.jpg"
+                                        src="\AI Recommendations.jpg"
                                         alt="HR Illustration"
                                         className="w-full object-contain"
                                     />
@@ -56,7 +56,7 @@ const AIpage = () => {
                                  {/* Image */}
                                  <div className="flex-1 max-w-lg">
                                     <img
-                                        src="src\assets\Resume.jpg"
+                                        src="\Resume.jpg"
                                         alt="HR Illustration"
                                         className="w-full object-contain"
                                     />
@@ -86,7 +86,7 @@ const AIpage = () => {
                                 {/* Image */}
                                 <div className="flex-1 max-w-lg">
                                     <img
-                                        src="src\assets\Skill Scoring.jpg"
+                                        src="\Skill Scoring.jpg"
                                         alt="HR Illustration"
                                         className="w-full object-contain"
                                     />
@@ -100,7 +100,7 @@ const AIpage = () => {
                                  {/* Image */}
                                  <div className="flex-1 max-w-lg">
                                     <img
-                                        src="src\assets\Job description.jpg"
+                                        src="\Job description.jpg"
                                         alt="HR Illustration"
                                         className="w-full object-contain"
                                     />

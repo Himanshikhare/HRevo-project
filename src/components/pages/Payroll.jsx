@@ -45,7 +45,7 @@ const Payroll = () => {
                         {/* Image */}
                         <div className="flex-1 max-w-lg">
                             <img
-                                src="src\assets\payroll.jpeg"
+                                src="\payroll.jpeg"
                                 alt="HR Illustration"
                                 className="w-full object-contain"
                             />
@@ -59,7 +59,7 @@ const Payroll = () => {
                          {/* Image */}
                          <div className="flex-1 max-w-lg">
                             <img
-                                src="src\assets\administrator.png"
+                                src="\administrator.png"
                                 alt="HR Illustration"
                                 className="w-full object-contain"
                             />
@@ -128,7 +128,7 @@ const Payroll = () => {
                         {/* Image */}
                         <div className="flex-1 max-w-lg">
                             <img
-                                src="src\assets\processing.png"
+                                src="\processing.png"
                                 alt="HR Illustration"
                                 className="w-full object-contain"
                             />
