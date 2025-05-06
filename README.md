@@ -94,7 +94,7 @@ HRevo/
 ## Contact
 For any questions or feedback, reach out to us:
 
---**GITHUB**  
+--**GITHUB**  https://github.com/Himanshikhare/HRevo-project.git
 
 
 ---
